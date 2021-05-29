@@ -15,6 +15,8 @@
 		424B61462661323C00B75F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424B61442661323C00B75F9A /* LaunchScreen.storyboard */; };
 		424B61512661323C00B75F9A /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B61502661323C00B75F9A /* MemoPadTests.swift */; };
 		424B615C2661323C00B75F9A /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B615B2661323C00B75F9A /* MemoPadUITests.swift */; };
+		424B616D266132D400B75F9A /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424B616C266132D400B75F9A /* MemoViewController.swift */; };
+		4266742F26626940000D2242 /* 写真２.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4266742E26626940000D2242 /* 写真２.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		424B61572661323C00B75F9A /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		424B615B2661323C00B75F9A /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		424B615D2661323C00B75F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424B616C266132D400B75F9A /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		4266742E26626940000D2242 /* 写真２.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "写真２.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		424B61382661323B00B75F9A /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				4266742E26626940000D2242 /* 写真２.jpeg */,
 				424B61392661323B00B75F9A /* AppDelegate.swift */,
 				424B613B2661323B00B75F9A /* SceneDelegate.swift */,
 				424B613D2661323B00B75F9A /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				424B61422661323C00B75F9A /* Assets.xcassets */,
 				424B61442661323C00B75F9A /* LaunchScreen.storyboard */,
 				424B61472661323C00B75F9A /* Info.plist */,
+				424B616C266132D400B75F9A /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				424B61462661323C00B75F9A /* LaunchScreen.storyboard in Resources */,
 				424B61432661323C00B75F9A /* Assets.xcassets in Resources */,
+				4266742F26626940000D2242 /* 写真２.jpeg in Resources */,
 				424B61412661323B00B75F9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424B616D266132D400B75F9A /* MemoViewController.swift in Sources */,
 				424B613E2661323B00B75F9A /* ViewController.swift in Sources */,
 				424B613A2661323B00B75F9A /* AppDelegate.swift in Sources */,
 				424B613C2661323B00B75F9A /* SceneDelegate.swift in Sources */,
